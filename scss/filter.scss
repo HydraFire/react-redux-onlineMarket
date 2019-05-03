@@ -1,0 +1,38 @@
+@import "smart-grid";
+
+.filter {
+  @include col();
+  @include size(2);
+}
+.filter-current {
+  flex-wrap: wrap;
+  user-select: none;
+  &__item {
+    white-space: nowrap;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    line-height: 20px;
+    background-color: #000;
+    border-radius: 3px;
+    color: #fff;
+    padding: 0 0 0 5px;
+    align-items: center;
+  }
+  &__item:hover {
+    background-color: #444;
+  }
+  &__text {
+    padding-bottom: 3px;
+  }
+  &__button {
+    align-self: flex-start;
+    font-size: 12px;
+    border: 1px solid #888;
+    border-radius: 3px;
+    padding: 0 5px 0 5px;
+  }
+  &__item span {
+    font-size: 8px;
+    padding: 0 5px;
+  }
+}

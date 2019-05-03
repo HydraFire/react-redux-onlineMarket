@@ -1,0 +1,43 @@
+@import "smart-grid";
+
+.productGrid {
+  @include col();
+  @include size(10);
+}
+.product {
+  margin: 0px 5px 10px 5px;
+  width: 200px;
+  box-shadow: 0 0 1px #aaa;
+  &:hover {
+    box-shadow: 0 0 3px #333;
+  }
+  &__tag {
+    position: absolute;
+    font-size: 14px;
+    width: 65px;
+    background: green;
+    border: 0px solid black;
+    border-radius: 5px;
+    color: white;
+    & span {
+      padding-left: 7px;
+    }
+  }
+  &__img {
+    padding-top: 20px;
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  &__name {
+    font-size: 12px;
+    font-weight: 700;
+    color: #777;
+    text-align: center;
+  }
+  &__price {
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}

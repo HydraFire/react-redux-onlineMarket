@@ -1,0 +1,49 @@
+/* Лента Новинки Распродажи */
+.lane {
+  padding-top: 70px;
+}
+.lane__button {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 45px;
+  padding: 0px 10px 0px 10px;
+}
+.laneProduct {
+  margin: 30px 5px 30px 5px;
+  width: 200px;
+}
+.laneProduct:hover {
+  box-shadow: 0 0 3px #333;
+}
+.laneProduct__tag {
+  position: absolute;
+  font-size: 14px;
+  width: 65px;
+  background: green;
+  border: 0px solid black;
+  border-radius: 5px;
+  color: white;
+}
+.laneProduct__tag span {
+  padding-left: 7px;
+}
+.laneProduct__img {
+  width: 200px;
+}
+.laneProduct__name {
+  text-align: center;
+}
+.laneProduct__price {
+  font-weight: 700;
+  text-align: center;
+}
+.laneProduct__like {
+  text-align: center;
+  line-height: 30px;
+}
+/* footer */
+.footer {
+  background: #eee;
+  padding-top: 20px;
+  color: #aaa;
+}
